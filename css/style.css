@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #EEEEEE;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    box-shadow: 1px 1px 8px 2px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    position: fixed;
+    /* Añade posición fija */
+    top: 0;
+    /* Asegura que esté pegado al borde superior */
+    z-index: 1000;
+    /* Asegura que esté por encima de otros elementos */
+  
+}
+
+.titulo {
+    text-align: left;
+    color: #000000;
+    font-variant: small-caps;
+    font-size: 1.5rem;
+}
+
+header img {
+    max-height: 100%;
+    padding: 2px 18px;
+}
+
+.imgC {
+    width: 80px;
+    height: 100%;
+
+}
+
+i {
+    color: #f3180c;
+    margin-right: 10px;
+    font-size: 35px;
+}
+
+i:hover {
+    color: #c4130a;
+
+
+}
+
+.navbar {
+    box-shadow: 0px 5px 5px 2px rgb(0 0 0 /10%);
+    height: 50px;
+    padding: 15px 10px;
+
+}
+
+
+
+
+/*card*/
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+
+
+
+.course {
+
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    max-width: 900px;
+    margin: 120px auto;
+    overflow: hidden;
+    width: 800px;
+    transition: all 400ms ease-out;
+    cursor: default;
+
+}
+
+.course:hover {
+
+    transform: translateY(-3%);
+
+}
+
+
+
+.course h6 {
+    opacity: 0.6;
+    margin: 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.course h2 {
+    letter-spacing: 1px;
+    margin: 10px 0;
+}
+
+.course-preview {
+    background-color: #08538b;
+    color: #fff;
+    padding: 30px;
+    max-width: 250px;
+}
+
+.course-preview a {
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    opacity: 0.6;
+    margin-top: 30px;
+    width: 500px;
+    text-decoration: none;
+}
+
+.course-info {
+    padding: 30px;
+    position: relative;
+    width: 100%;
+}
+
+
+.progress-text {
+    font-size: 10px;
+    opacity: 0.6;
+    letter-spacing: 1px;
+}
+
+.btn {
+    background-color: #08538b;
+    border: 0;
+    border-radius: 50px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 25px;
+    position: absolute;
+    cursor: pointer;
+    bottom: 30px;
+    right: 30px;
+    letter-spacing: 1px;
+}
+
+.btn:hover {
+    background-color: #033f6d;
+    border: 0;
+    border-radius: 50px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+
+    font-size: 16px;
+    padding: 12px 25px;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    letter-spacing: 1px;
+}

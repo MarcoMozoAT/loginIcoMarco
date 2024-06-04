@@ -1,0 +1,92 @@
+label {
+    font-weight: bold;
+    /* Hace que el texto de la etiqueta sea negrita */
+    color: #333;
+    /* Cambia el color del texto de la etiqueta a un tono más oscuro */
+    margin-bottom: 5px;
+    /* Añade un pequeño espacio entre la etiqueta y el input */
+}
+
+input[type="text"],
+input[type="date"],
+select {
+    width: 100%;
+    /* Ajusta el ancho al 100% del contenedor */
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+.contenedor-formulario {
+    box-shadow: 1px 1px 8px 2px rgba(0, 0, 0, 0.2);
+    padding: 35px;
+    width: 540px;
+    border-radius: 8px;
+    margin: 120px auto 20px auto;
+    background-color: #fff;
+    /* Añade un fondo blanco para que la sombra sea visible */
+}
+
+/* Estilos para el botón */
+.buttonC {
+    background-color: #08538B;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    width: 40%;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 auto;
+    /* Añade margen automático para centrar el botón */
+    display: block;
+    /* Convierte el botón en un elemento de bloque para que ocupe todo el ancho del contenedor */
+}
+
+
+
+.contenedor-formulario h1 {
+    text-align: center;
+    /* Centra el texto */
+    margin-bottom: 20px;
+    /* Añade un espacio entre el título y el formulario */
+    font-size: 24px;
+    /* Ajusta el tamaño del texto según tu preferencia */
+    color: #333;
+    /* Puedes cambiar el color del texto según tu diseño */
+}
+
+.contenedor-formulario .divisor {
+    width: 20%;
+    /* Ajusta el ancho del divisor según tu preferencia */
+    border: 2px solid #08538B;
+    /* Establece un borde sólido y un color */
+    margin: 0 auto 20px;
+    /* Centra el divisor y añade espacio por debajo */
+}
+
+
+/* Añade estilos de hover a los inputs */
+input[type="text"]:hover,
+input[type="date"]:hover,
+select:hover {
+    border-bottom: 1px solid #08538B;
+    /* Cambia el color del borde al pasar el ratón */
+}
+
+/* Estilos para el botón al pasar el ratón */
+input[type="submit"]:hover {
+    background-color: #07406b;
+    /* Cambia el color de fondo al pasar el ratón */
+
+}
+
+/* Estilos para el enlace (ícono de salida) al pasar el ratón */
+header a:hover {
+    color: #ec1b10;
+    /* Cambia el color del ícono al pasar el ratón */
+}
+

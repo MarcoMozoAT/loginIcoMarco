@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/examen.css">
+    <title>Examen</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Exámen                     <div class="timer" id="timer">1:00</div>
+            </h1>    
+                <div class="info">
+                    <div class="timer-container">
+                    </div>
+                </div>                      
+        </div>
+        <div class="question">
+            <p id="questionIndicator">Pregunta 1 de X</p>
+
+            <h2 id="question"></h2>
+        </div>
+        <div class="options" id="options">
+            <input type="radio" name="answer" value="0" id="optionA"><label for="optionA">a) </label><br>
+            <input type="radio" name="answer" value="1" id="optionB"><label for="optionB">b) </label><br>
+            <input type="radio" name="answer" value="2" id="optionC"><label for="optionC">c) </label><br>
+            <input type="radio" name="answer" value="3" id="optionD"><label for="optionD">d) </label><br>
+        </div>
+        <br>
+        <br>
+
+        <button class="next-button" id="nextButton">Siguiente</button>
+    </div>
+    <script src="../js/examen.js"></script>
+</body>
+</html>
